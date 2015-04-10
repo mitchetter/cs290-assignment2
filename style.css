@@ -1,0 +1,76 @@
+table, td, th { border: 1px solid gray }
+
+table{
+	table-layout: fixed;
+	width: 75%;
+	text-align: center;
+}
+
+tbody th{
+	font-style: italic;
+	font-weight: normal;
+}
+
+tbody td:nth-child(2){
+	color: red;
+}
+
+tbody td:nth-child(4){
+	color: blue;
+}
+
+tbody tr:nth-child(odd){  
+	background-color: lightgreen;
+}
+
+tbody tr:nth-child(even){
+	background-color: lightblue;
+}
+
+dt:hover + dd{
+	background-color: purple;
+}
+
+form{
+	border: solid black 2px;
+	margin-bottom: 30px;
+	padding: 4px;
+}
+
+label{
+	background: white;
+	display: block;
+	float: left;
+	margin-top: -16px;
+	padding: 2px 5px;
+}
+
+span{
+	border: solid black 1px;
+	display: block;
+	margin: 20px 5px 5px 5px;
+	padding: 5px 50% 5px 2px;
+}
+
+input{
+	margin: 5px;
+}
+
+.outer-content{
+	background-color: pink;
+	margin: 20px 0px;
+	width: 75%;
+}
+
+.inner-content{
+	background-color: blue;
+	color: white;
+	margin: auto;
+	text-align: center;
+	width: 75%;
+}
+
+img{
+	float: left;
+}
+
